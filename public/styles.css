@@ -1,11 +1,17 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: oldlace;
-    margin: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+
 }
 
 #main-container {
     text-align: center;
-    margin: 30px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -21,4 +27,32 @@ body {
 
 p{
     line-height: 1.3;
+}
+
+#procrostatination{
+    font-style: italic;
+    font-weight: 600;
+    color: #5fc0d1;
+}
+
+button{
+    background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-weight: 600;
+}
+
+.ngnix{
+    color: #fdb3b1;
+}
+
+.security{
+    color: #73C7BB;
+}
+
+.me{
+    color: #7C7BC6;
 }
