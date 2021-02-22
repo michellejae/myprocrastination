@@ -32,7 +32,7 @@ p {
   line-height: 1.3;
 }
 
-#procrostatination {
+#procrastination {
   font-style: italic;
   font-weight: 600;
   color: #5fc0d1;
@@ -90,14 +90,28 @@ button {
   offset-path: path("m 600,-200 s 300,-500 700,200");
   border: 2px solid rgb(119, 118, 118);
   box-shadow: 10px 5px 5px #fdb3b1;
+  width: 550px;
+}
+
+#security-image {
+    background-image: url("./assets/Best-Friend.png");
+    offset-path: path("m 620,-400 s 300,-500 700,200");
+    border: 2px solid rgb(119, 118, 118);
+    box-shadow: 10px 5px 5px #73c7bb;
+    width: 1150px;
+}
+
+#me-image{
+    background-image: url("./assets/me.JPG");
+    offset-path: path("m 600,-200 s 300,-500 700,200");
+    border: 2px solid rgb(119, 118, 118);
+    box-shadow: 10px 5px 5px #7c7bc6;
 }
 
 .modal {
-  width: 550px;
   height: 200px;
   background-position: top;
   background-repeat: no-repeat;
-  border: 1px solid #ccc;
   transition: 1.1s ease-out;
   filter: blur(0);
   transform: scale(1);
@@ -120,6 +134,14 @@ button {
 
 #nginx-image button {
     color: #fdb3b1;
+}
+
+#security-image button{
+    color:#73c7bb;
+}
+
+#me-image button{
+    color:#7c7bc6;
 }
 
 .close{
