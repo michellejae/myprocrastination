@@ -1,6 +1,6 @@
-html, body {
+/* html, body {
     height: 100%;
-}
+} */
 
 body {
     background-color: oldlace;
@@ -13,6 +13,9 @@ body {
 #main-container {
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #ope-container{
@@ -56,3 +59,35 @@ button{
 .me{
     color: #7C7BC6;
 }
+
+
+.modal{
+    position: fixed;
+    border-radius: 50%;
+    bottom: -150px;
+    right: -150px;
+}
+
+
+
+.pink{
+    width: 300px;
+    height: 300px;
+    border: 20px solid #fdb3b1;
+
+}
+
+.green {
+    width: 250px;
+    height: 250px;
+    border: 20px solid #73C7BB;
+
+  
+}
+
+.purple {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #7C7BC6;
+}
+
