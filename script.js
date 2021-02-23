@@ -6,7 +6,7 @@ let meButton = document.querySelector('#me');
 let meModal = document.querySelector('#me-image');
 
 let textContainer = document.querySelector('#text-container');
-let closeButton = document.querySelector('.close');
+let closeButtons = document.querySelectorAll('.close');
 let modal = document.querySelector(".modal");
 
 
@@ -25,7 +25,13 @@ meButton.addEventListener('click', () => {
     textContainer.classList.toggle("blur");
 })
 
-closeButton.addEventListener('click', () => {
-    modal.classList.toggle("off");
+
+
+function closeModal(e){
+    let parent = e.target.parentElement
+    parent.classList.toggle("off");
     textContainer.classList.toggle("blur");
-})
+}
+
+closeButtons.forEach(closeB => closeB.addEventListener('click', closeModal))
+
