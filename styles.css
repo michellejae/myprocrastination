@@ -167,6 +167,19 @@ button {
     width: 1em;
 }
 
+a {
+  color:#00A0C6; 
+  text-decoration: none;
+}
+
+a:hover 
+{
+   
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+
 
 @media only screen and (max-width: 520px) {
   #stop{
