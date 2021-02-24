@@ -176,9 +176,14 @@ button {
 }
 
 @media only screen and (max-width: 520px) {
+  #stop{
+    display: none;
+  }
+
 
   #ope-container {
     font-size: 1.15em;
+  
   }
     h1 {
       margin: 2px;
