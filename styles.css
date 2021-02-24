@@ -178,9 +178,9 @@ button {
   #ope-container {
     font-size: 1.2em;
   }
-    h1 {
+  h1 {
       margin: 5px;
-    }
+  }
   #text-container {
     margin: 0px 10px 10px 10px;
     padding: 0px;
@@ -204,25 +204,44 @@ button {
 
   #nginx-image{
     top: 100px;
-    left: 70px;
-    width: 200px;
+    left: 60px;
+    width: 215px;
+  }
+
+  #nginx-image img {
+    width: 215px;
   }
 
   #security-image {
     width: 230px;
+    top: 120px;
+    left: 50px;
+  }
+
+  #security-image img {
+    width: 230px;
+  }
+
+  #me-image {
     top: 100px;
-    left: 70px;
+    left: 60px;
+    width: 215px;
+    height: auto;
+  }
+
+  #me-image img {
+    width: 215px;
+    height: auto;
   }
 
 
  #nginx-image, #me-image, #security-image {
    offset-path: none;
-   /* width: 150px; */
-  }
-  #me-image img, #nginx-image img, #security-image img {
-    width: 230px;
   }
 
+  .close{
+    font-size: 1.2em;
+  }
   .pink {
     display: none;
   }
